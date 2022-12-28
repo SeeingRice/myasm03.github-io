@@ -1,0 +1,100 @@
+@media (max-width: 767px) {
+  header {
+    background-color: paleturquoise;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../imgs/banner-md.jpg);
+  }
+  /* PHẦN HEADER */
+  .name-job-header {
+    display: none;
+  }
+  .border-disp {
+    border-right: none !important;
+  }
+  /* PHẦN GIỚI THIỆU */
+  .about-ct {
+    padding: 4em 3em 3rem 4em;
+  }
+  .info-ct {
+    padding: 4em 2em 3rem 4em;
+  }
+  /* PHẦN KINHG NGHIỆM VÀ KỸ NĂNG */
+  .grid-job {
+    max-width: 100%;
+    margin-left: 2em;
+  }
+  [class*="col-"] {
+    padding: 4em 1em 3em 1em;
+  }
+  .col-3 {
+    width: 42%;
+  }
+  .hobby-box {
+    top: 39em;
+  }
+  .skill-box {
+    left: 22.3em;
+    top: 60.5em;
+  }
+  .language-box {
+    position: absolute;
+    top: 61em;
+  }
+  .act-box {
+    margin-top: 1.5em !important;
+  }
+  /* PHẦN CHỨNG CHỈ */
+  .certificate-container {
+    max-width: 90%;
+  }
+  .certificate-block {
+    margin-top: 29em;
+  }
+  .cert-block {
+    flex-direction: column;
+  }
+  .cert-block img {
+    width: 95%;
+    height: auto;
+  }
+  #cert-title {
+    margin-top: 2em;
+  }
+  .cert-block p {
+    font-size: 1em;
+  }
+  /* PHẦN DỰ ÁN */
+  .project-cv-block {
+    width: 100%;
+    margin-left: 2em;
+  }
+  .project-container {
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    grid-template-rows: 40em;
+    column-gap: 1em;
+    width: 43em;
+  }
+  #icon-proj-1,
+  #icon-proj-2 {
+    float: right;
+  }
+  #icon-proj-1 {
+    margin-right: 4em;
+  }
+  #icon-proj-2 {
+    margin-right: 2.5em;
+  }
+  .pd-med {
+    padding-right: 0.8em;
+  }
+  #pd-med-r {
+    margin-top: -3.5em;
+  }
+  .t-row-2 {
+    padding-bottom: 0.5em;
+  }
+  /* FOOTER */
+  .contact ul {
+    left: 2em;
+  }
+}

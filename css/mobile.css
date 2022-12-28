@@ -1,0 +1,171 @@
+@media (min-width: 501px) {
+  #nav-bar-mobile {
+    display: none;
+  }
+  .mobile-display {
+    display: none;
+  }
+  #title-mobile {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  /* PHẦN HEADER */
+  header {
+    background-color: paleturquoise;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../imgs/mobile.jpg);
+    height: 60em;
+  }
+  /* PHẦN HEADER */
+  #nav-bar {
+    display: none;
+  }
+  #nav-bar-mobile {
+    display: block;
+    padding-bottom: 1em;
+  }
+  .nav-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    justify-content: start;
+    align-items: flex-start;
+    text-transform: capitalize;
+    padding-left: 2em;
+  }
+  .nav-mobile a {
+    text-decoration: none;
+    color: var(--primary-color);
+    height: 3em;
+    line-height: 3em;
+    width: 7em;
+    display: inline-block;
+    position: relative;
+  }
+  .nav-mobile a:hover {
+    border-bottom: 1px solid var(--bs-gray-400);
+    transition: ease-in 0.1;
+  }
+  .nav-mobile span {
+    color: dodgerblue;
+  }
+  /* PHẦN GIỚI THIỆU */
+  .about-info {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .about-ct {
+    padding: 5em 2em 4em 2em;
+  }
+  .info-ct {
+    padding: 5em 2em 4em 2em;
+  }
+  /* PHẦN KINH NGHIỆM VÀ KỸ NĂNG */
+  .grid-job {
+    max-width: 100%;
+    margin-left: 0em;
+  }
+  .col-3 p {
+    font-size: 1.2em;
+  }
+  [class*="col-"] {
+    border-left: none;
+    border-right: none;
+  }
+  .col-3 {
+    width: 96%;
+    margin-top: 2em !important;
+  }
+  .hobby-box,
+  .skill-box,
+  .language-box {
+    left: 0;
+  }
+  .hobby-box {
+    top: 117em;
+  }
+  .skill-box {
+    top: 138em;
+  }
+  .language-box {
+    top: 168.5em;
+  }
+  /* PHẦN CHỨNG CHỈ */
+  .certificate-container {
+    max-width: 100%;
+  }
+  .certificate-block {
+    margin-top: 77em;
+  }
+  .item-right {
+    border: none;
+  }
+  .cert-block-ct {
+    flex-direction: column;
+  }
+  .cert-block {
+    width: 100%;
+    border-top: 0.0625em solid #d93b00;
+    padding-top: 2em;
+  }
+  .row-2 {
+    border: none;
+    margin-top: 0;
+  }
+  .mobile-cert {
+    display: none;
+  }
+  .border-none {
+    border-top: none;
+    margin-bottom: 2em;
+  }
+  .cert-block p {
+    font-size: 1.5em;
+  }
+  /* PHẦN KINH NGHIỆM KỸ NĂNG */
+  .laptop-tab-display {
+    display: none;
+  }
+  .pro-container-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    gap: 2em;
+  }
+  .project-items {
+    width: 27em;
+  }
+  #mobile-font p {
+    font-size: 1.25em;
+  }
+  .text-row p {
+    padding-left: 1em;
+  }
+  .details {
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    font-size: 1em;
+    margin-left: 1em;
+  }
+  #t-r-m p {
+    margin-top: -0.5em;
+  }
+  #t-r-2 p {
+    margin-top: -2.2em !important;
+  }
+  #title-lap {
+    display: none;
+  }
+  #title-mobile {
+    display: block;
+  }
+  /* PHẦN FOOTER */
+  .none-text {
+    display: none;
+  }
+  .contact ul {
+    left: 5em;
+  }
+}
